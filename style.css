@@ -1,24 +1,38 @@
 body {
   font-family: "Poppins", sans-serif;
   margin: 0px 50px 0 50px;
-  background-color: #faf9f6;
+
   min-height: 95vh;
 }
-.main{
+.main {
   display: block;
 }
 h1 {
   font-size: 5rem;
 }
-h2{
+h2 {
   margin-top: 90px;
 }
-
-span{
-  color:#191970;
+.banner {
+  background-color: #00a5ff;
+  display: flex;
 }
 
-.tile-image{
+.logo {
+  object-fit: cover;
+  margin-top: 5px;
+  width: 10%;
+  position: relative;
+  left: 0;
+  border-radius: 17%;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+span {
+  color: #191970;
+}
+
+.tile-image {
   float: left;
   width: 40%;
   margin: 20px;
@@ -27,73 +41,82 @@ span{
 footer {
   text-align: right;
   color: midnightblue;
-  clear: both;;
+  clear: both;
 }
-.flex-box{
+.flex-box {
   display: flex;
   margin-bottom: 90px;
 }
-.card{
+.card {
   height: 200px;
   margin-left: 0px;
   margin-bottom: 40px;
 }
-.right{
+.right {
   margin-left: 50px;
 }
 
-@media (max-width: 780px){
+@media (max-width: 780px) {
   body {
     font-family: "Poppins", sans-serif;
     margin: 0px 20px 0 20px;
-    background-color: #faf9f6;
     min-height: 95vh;
   }
-    h1{
-      font-size: 1.5rem;
-    }
-    .tile-image{
-      float: none;
-      width: 100%;
-      margin-bottom: 0px;
-    }
-    .card{
-      margin-bottom: 150px;
-    }
-    .flex-box{
-      display: block;
-      margin-bottom: 150px;
-    }
+  .logo {
+    object-fit: cover;
+    margin-top: 5px;
+    width: 10%;
+    position: relative;
+    left: 0;
+    border-radius: 17%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  .tile-image {
+    float: none;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .card {
+    margin-bottom: 150px;
+  }
+  .flex-box {
+    display: block;
+    margin-bottom: 150px;
+  }
 
-    .card-title{
-      margin-top: 0px;
-    }
+  .card-title {
+    margin-top: 0px;
+  }
 
-    h2{
-      margin-top: 20px;
-    }
-   .left{
-      position: relative;
-      height: 300px;
-      width: 80%;
-   }
-   .right{
+  h2 {
+    margin-top: 20px;
+  }
+  .left {
+    position: relative;
+    height: 300px;
+    width: 80%;
+  }
+  .right {
     position: relative;
     width: 80%;
     margin-left: 0px;
-   }
+  }
 
-  .logo{
+  .logo {
     object-fit: cover;
     width: 30%;
     position: relative;
     left: 0;
   }
-  .main{
-    margin-left:15%;
+  .main {
+    margin-left: 15%;
     margin-bottom: 300px;
   }
- 
+
   footer {
     text-align: center;
     color: midnightblue;
