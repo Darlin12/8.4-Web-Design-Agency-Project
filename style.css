@@ -16,6 +16,17 @@ h2 {
 .banner {
   background-color: #00a5ff;
   display: flex;
+  justify-content: space-between;
+}
+
+.logox{
+  width: 50%;
+}
+.Bienvenido{
+  align-self:center;
+  color:white;
+  margin-right: 5px;
+  
 }
 
 .logo {
